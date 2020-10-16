@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white ;
+}
+body{
+
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#logo{
+    width: 180px;
+    margin: 19px;
+}
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 25px;
+}
+.help {
+    border-radius: 24px;
+    margin: auto;
+    background-color: black;
+    width: 516px;
+    height: 545px;
+    padding: 14px;
+}
+
+    input[type="radio"] {
+        margin-right: 11px;
+    }
+    form {
+        margin: 13px;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+    h1 {
+            font-weight: 400;
+            font-size: 32px;
+            padding-bottom: 16px;
+    }
+    form p {
+        font-size: 18px;
+        padding-bottom: 19px;
+        padding-top: 19px;
+    }
+    .rad {
+        margin-bottom: 17px;
+        font-size: 18px;
+        padding-left: 3px;
+    }
+    input[type="email"] {
+        
+        padding: 10px;
+        margin: 6px;
+        height: 46px;
+        width: 100%;
+    }
+    button {
+        margin-top: 8px;
+        height: 46px;
+        width: 100%;
+        background-color: red;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+    }
+     form a {
+        text-decoration: none;
+        color: #5c5cff;
+        margin: 15px;
+    }
